@@ -1,0 +1,356 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  /* font-family: "Roboto", sans-serif; */
+  /* font-family: "Google Sans", sans-serif; */
+  /* font-family: "Poppins", sans-serif; */
+  font-family: "DM Sans", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #ccc;
+}
+
+.product-container {
+  width: 350px;
+  background-color: rgba(240, 233, 233, 0.842);
+}
+
+.fruit-image-container {
+  width: 100%;
+  height: 280px;
+  overflow: hidden;
+  padding: 30px;
+}
+
+img {
+  width: 310px;
+  height: auto;
+  margin-top: -10px;
+  margin-left: -15px;
+}
+
+.navgation-icon-box {
+  position: relative;
+  top: -135%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 43px;
+  height: 43px;
+  background-color: #fff;
+  border: 1px solid #0000001c;
+  border-radius: 50%;
+}
+
+.icon-box:focus {
+  background-color: red;
+}
+
+.icon-box > i {
+  color: #000;
+  font-size: 200px;
+}
+
+.fruit-deatail-container {
+  width: 100%;
+  height: 570px;
+  background-color: #fff;
+  border-radius: 35px 35px 0 0;
+  padding: 20px 20px 30px 20px;
+}
+
+.category-discount {
+  display: flex;
+  justify-content: space-between;
+}
+
+h4 {
+  color: rgba(32, 117, 11, 0.836);
+  font-size: 12px;
+  font-weight: 650;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+
+.dicount-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 67px;
+  height: 25px;
+  background-color: rgb(192, 16, 16);
+  border-radius: 30px;
+}
+
+h5.off {
+  color: #ffffffee;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+}
+
+.product-name {
+  margin-top: 8px;
+}
+
+h2 {
+  color: #000;
+  font-size: 21px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+
+.rating-box {
+  margin-top: 1px;
+  display: flex;
+  align-items: center;
+}
+
+.rating-image > img {
+  margin-top: 6px;
+  margin-left: -2px;
+}
+
+h5.rating {
+  margin-left: 6px;
+  font-size: 12.5px;
+  font-weight: 900;
+  letter-spacing: 0.4px;
+}
+
+span.reviews {
+  color: #747474f1;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.product-price-box {
+  margin-top: 10px;
+}
+
+h2.price {
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  display: flex;
+  align-items: center;
+}
+
+span.price-cutof {
+  color: #6460609c;
+  font-size: 11.5px;
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+span.kg {
+  color: #706f6f;
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-left: 5px;
+}
+
+.product-about {
+  margin-top: 15px;
+  height: 79px;
+  border-bottom: 1px solid #5c5a5a1f;
+}
+
+p.about {
+  color: #706f6f;
+  font-size: 12.8px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  word-spacing: 1px;
+  line-height: 21px;
+}
+
+.product-supply {
+  display: flex;
+  margin-top: 15px;
+  height: 92px;
+  border-bottom: 1px solid #5c5a5a1f;
+}
+
+.supply-box {
+  display: grid;
+  justify-content: space-around;
+  align-items: center;
+  width: 100px;
+  height: 30px;
+}
+
+.delivery {
+  width: 130px;
+}
+
+.mexico {
+  width: 160px;
+  position: absolute;
+  margin: 45px 0 0 1px;
+}
+
+.supply-image {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(176, 178, 179, 0.3);
+  border-radius: 10px;
+  padding: 7px 10px;
+}
+
+.supply-image > i {
+  margin-right: 4px;
+}
+
+h4.supply-name {
+  color: #383333a1;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+  text-transform: capitalize;
+  margin: 1px;
+}
+
+.weight-container {
+  margin-top: 10px;
+}
+
+h3.choose-weight {
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+}
+
+.choose-weight-box {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.weight-box {
+  cursor: pointer;
+  width: 67px;
+  height: 80px;
+  border: 1px solid #cccccc;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 23px;
+  padding: 5px;
+}
+
+.weight-box:hover {
+  border: 1px solid rgba(32, 117, 11, 0.836);
+}
+
+h3.weight {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+}
+
+p.bast-for {
+  color: #2c2a26cc;
+  font-size: 11.7px;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 0.4px;
+}
+
+.weight-price {
+  color: #000;
+  font-size: 12.5px;
+  font-weight: 550;
+  letter-spacing: 0.5px;
+}
+
+.order-container {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.count-box {
+  display: flex;
+  justify-content: space-between;
+  width: 140px;
+  height: 45px;
+  border: 1px solid #3833339d;
+  border-radius: 10px;
+}
+
+button.subtract,
+button.add {
+  cursor: pointer;
+  width: 50px;
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 30px;
+  font-weight: 200;
+}
+
+.count-num,
+.count-num > span,
+.count-kg {
+  display: flex;
+  align-items: center;
+  color: #000;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-left: -17px;
+}
+
+.count-kg {
+  position: fixed;
+  margin-top: 11px;
+  margin-left: 71px;
+}
+
+button.cart {
+  cursor: pointer;
+  width: 155px;
+  height: 45px;
+  background-color: rgba(30, 99, 13, 0.836);
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 0.6px;
+  transition: all 0.3s ease;
+}
+
+button.cart:hover {
+  background-color: rgba(28, 105, 9, 0.897);
+}
+
+button.cart > span.dot {
+  position: relative;
+  top: -3px;
+  color: #fff;
+  font-weight: 1000;
+}
